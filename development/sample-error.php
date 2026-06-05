@@ -1,3 +1,3 @@
 <?php
-echo 'Finding an error";
+echo 'Finding an error';
 ?>

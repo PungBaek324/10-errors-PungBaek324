@@ -5,4 +5,4 @@ function total(int $price, int $quantity)
 }
 ?>
 <h1>Basket</h1>
-<?= totals(3, 5) ?>
+<?= total(3, 5) ?>

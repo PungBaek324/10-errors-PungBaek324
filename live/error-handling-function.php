@@ -7,7 +7,7 @@ function handle_error($level, $message, $file = '', $line = 0) {
     http_response_code(500);
 
     require_once 'includes/header.php';
-    echo "<h1>Sorry, a problem occurred</h1>   
+      echo "<h1>Sorry, a <code>500 error</code> occurred</h1>  
         The site's owners have been informed. Please try again later.";
     require_once 'includes/footer.php';
     exit;
@@ -17,4 +17,4 @@ $username = $_GET['username'];
 ?>
 <?php include 'includes/header.php'; ?>
 <h1>Welcome, <?= $username ?></h1>
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/footer.php'; ?>

@@ -2,7 +2,7 @@
 echo '<p><i>1: Start of page</i></p>';
 $basket['pen']    = 1.20; 
 $basket['pencil'] = 0.80; 
-$basket['paper']  = 'two';
+$basket['paper']  = 2.00;
 
 function total(array $basket): int
 {

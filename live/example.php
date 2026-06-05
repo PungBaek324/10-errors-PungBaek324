@@ -11,7 +11,7 @@ $exchange_rate = 0.8;
 // FATAL ERROR CONVERTED TO EXCEPTION BY PHP INTERPRETER
 // Cause:    Missing class definition when creating object
 // To test:  Uncomment next line
-// $exchange_rate = new ExchangeRate();
+$exchange_rate = new ExchangeRate();
 
 
 $aud = $price * $exchange_rate;
